@@ -1,0 +1,21 @@
+{
+    "name": "zhyzhkoslava/simple-laravel-dumper",
+    "description": "simple dd() function like in laravel framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zhyzhkoslava\\SimpleLaravelDumper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viacheslav",
+            "email": "zhizhkoslava@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "6.3.x-dev"
+    }
+}
